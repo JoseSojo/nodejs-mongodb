@@ -1,0 +1,22 @@
+body{
+	background: #1488CC;
+	background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+	background: linear-gradient(to right, #2B32B2, #1488CC)
+}
+
+.center-xy{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.information{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.information_child{
+	min-width: 150px
+}

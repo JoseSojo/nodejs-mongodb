@@ -1,0 +1,21 @@
+
+<div class="col-md-5 mt-3 m-auto">
+	<div class="card">
+		<div class="card-header">
+			<h3>New Note</h3>
+		</div>
+		<div class="card-body">
+			<form action="/note/new" method='POST'>
+				<div class="my-2">
+					<input type="text" name='title' placeholder="Title" class="form-control" autofocus value='{{title}}'>
+				</div>
+				<div class="my-2">
+					<textarea name='description' placeholder="Description" class="form-control">{{description}}</textarea>
+				</div>
+				<div class="my-2">
+					<button type='submit' class="btn btn-primary btn-block">Saved</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
